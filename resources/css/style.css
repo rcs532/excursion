@@ -11,7 +11,7 @@ header h1{
     color: white;
 }
 
-header  a {
+header  a , footer a{
     color: aquamarine;
     size: 16px;
 }
@@ -20,4 +20,54 @@ section.gif {
     display: flex;
     margin-top: 40px;
     justify-content: center;
+}
+
+section.guide {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 40px;
+}
+
+section.guide h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+section.guide p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+section.icon{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.coming{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.link{
+    text-align: center;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer span{
+    color:white;
+    margin-top: 70px;
+    align-self: flex-end;
 }
