@@ -15,3 +15,9 @@ header  a {
     color: aquamarine;
     size: 16px;
 }
+
+section.gif {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
